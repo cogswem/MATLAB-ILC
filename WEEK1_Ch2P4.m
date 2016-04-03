@@ -20,8 +20,7 @@ if e>f
 else
     g=f;
 end
-disp(['Than g ='])
-disp(g)
+disp(['Than g =', num2str(g))
 %(d) If d is greater than 0, set x equal to -b.
 disp(['Part D'])
 d=rand;     %rand generates numbers between 0 and 1, so if- is unecessary. Find ways to diversify 'random'.
@@ -29,8 +28,7 @@ b=d;
 if d>0
     x=-b;
 end
-disp(['x ='])
-disp(x)
+disp(['x ='],num2str(x))
 %(e) Divide the sum of a and b by the product of c and d, and store the
 %    result in x.
 disp(['Part E'])
