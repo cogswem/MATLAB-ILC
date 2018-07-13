@@ -18,7 +18,7 @@ disp(['Ex 2.3'])
 disp(['Ex 2.4'])
 [2 3 1].^2
 %Ex.2.6
-%Water freezes at 32 and 212 on the fahrenheit scale. If C and F are
+%Water freezes at 32 and boils 212 on the fahrenheit scale. If C and F are
 %celcius and Fahrenheit temperatures, the formula: F=9C/5+32 converts from
 %one to the other. Use the MATLAB command line to convert Celcius 37
 %(normal human temperature) to Fahrenheit(98.6).
@@ -35,7 +35,7 @@ disp(['Ex 2.8.a'])
 disp(['Ex 2.8.b'])
 %Convert 75Kg to pounds. 1lb=454g.
 75*1000/454
-%Write MATLAB prigrams to find the following sums with for loops and
+%Write MATLAB programs to find the following sums with for loops and
 %vectorization. Time both versions in each case
 disp(['Time how long it takes to compute: 1^2+2^2+3^2+...+1000^2'])
 disp(['loop version'])
